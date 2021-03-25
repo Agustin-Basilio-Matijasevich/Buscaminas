@@ -7,7 +7,7 @@ using namespace std;
 
 int main()
 {
-	cout << "Buscaminas V2.1" << endl << "---------------" << endl;
+	cout << "Buscaminas V3.0" << endl << "---------------" << endl;
 
 	srand((unsigned) time(NULL));
 
