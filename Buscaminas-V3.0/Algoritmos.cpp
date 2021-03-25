@@ -81,50 +81,49 @@ int Control_Peligro(int i, int j)
 	peligro += tablero[i + 1][j];
 	peligro += tablero[i + 1][j - 1];
 
-	if (peligro == 0)
+	switch (peligro)
 	{
+	case 0:
 		mascara[i][j] = '_';
 		return peligro;
-	}
-	else if (peligro == 1)
-	{
+
+	case 1:
 		mascara[i][j] = '1';
 		return peligro;
-	}
-	else if (peligro == 2)
-	{
+
+	case 2:
 		mascara[i][j] = '2';
 		return peligro;
-	}
-	else if (peligro == 3)
-	{
+
+	case 3:
 		mascara[i][j] = '3';
 		return peligro;
-	}
-	else if (peligro == 4)
-	{
+
+	case 4:
 		mascara[i][j] = '4';
 		return peligro;
-	}
-	else if (peligro == 5)
-	{
+
+	case 5:
 		mascara[i][j] = '5';
 		return peligro;
-	}
-	else if (peligro == 6)
-	{
+
+	case 6:
 		mascara[i][j] = '6';
 		return peligro;
-	}
-	else if (peligro == 7)
-	{
+
+	case 7:
 		mascara[i][j] = '7';
 		return peligro;
-	}
-	else if (peligro == 8)
-	{
+
+	case 8:
 		mascara[i][j] = '8';
 		return peligro;
+
+	default:
+		mascara[i][j] = 'E';
+		cout << "Fatal Error In Function ''Control_Peligro''" << endl;
+		system("Pause");
+		return 1;
 	}
 }
 
