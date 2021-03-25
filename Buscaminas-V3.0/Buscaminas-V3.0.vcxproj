@@ -139,7 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Buscaminas-V3.0.cpp" />
+    <ClCompile Include="Algoritmos.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Espacios de Memoria Universales.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Algoritmos.hpp" />
+    <ClInclude Include="Librerias.hpp" />
+    <ClInclude Include="Espacios de Memoria Universales.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

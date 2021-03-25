@@ -13,10 +13,33 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Funciones Auxiliares">
+      <UniqueIdentifier>{3218c4d2-a300-4de2-b3d3-8c41c6f68418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Espacios de Memoria Universales">
+      <UniqueIdentifier>{9c4d0614-7c17-4927-a4e6-d3d3f46d4f69}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Buscaminas-V3.0.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="Algoritmos.cpp">
+      <Filter>Funciones Auxiliares</Filter>
+    </ClCompile>
+    <ClCompile Include="Espacios de Memoria Universales.cpp">
+      <Filter>Espacios de Memoria Universales</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Librerias.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Algoritmos.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Espacios de Memoria Universales.hpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
